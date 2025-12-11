@@ -15,7 +15,7 @@ async function Dashboard() {
       <h1
         className={`${lusitana.className} md:text-1xl text-color:red mb-4 text-2xl`}
       >
-        Dashboard
+       Admin Dashboard 
       </h1>
       <div className="sm-grid-cols-2 grid gap-6 lg:grid-cols-4">
         <Suspense fallback={<CardsSkeleton />}>
